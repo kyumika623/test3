@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+:root{
+    --green:#38b48b;
+    --yellow:#d3a243;
+    --pink:#f5b1aa;
+    --purple:#a6a5c4;
+    --black:#180614;
+}
+
+ body{
+     background:url(images/REDSG2153B036.jpg)  no-repeat 0px -100px/cover;
+ }
+h1,p{
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    font-family: "游教科書体","YuKyokasho";
+}
+
+h1{
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-left: 80%;
+}
+
+p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    margin: 220px 320px 50px 100px;
+    flex-direction: row-reverse;
+}
+
+a:hover,
+ .hisui:hover,
+ .kikuti:hover,
+ .sango:hover,
+ .fuji:hover,
+ .karasu:hover{
+     transition: 2s;
+ }
+ .hisui:hover{
+     color:var(--green);
+ }
+ .kikuti:hover{
+     color: var(--yellow);
+ }
+ .sango:hover{
+     color: var(--pink);
+ }
+ .fuji:hover{
+     color: var(--purple);
+ }
+ .karasu:hover{
+     color: var(--black);
+ }
